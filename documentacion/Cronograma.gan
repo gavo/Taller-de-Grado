@@ -1,14 +1,14 @@
-<?xml version="1.0" encoding="UTF-8"?><project name="Untitled Gantt Project" company="" webLink="http://" view-date="2015-02-22" view-index="0" gantt-divider-location="353" resource-divider-location="300" version="2.7" locale="es">
+<?xml version="1.0" encoding="UTF-8"?><project name="Untitled Gantt Project" company="" webLink="http://" view-date="2015-02-16" view-index="0" gantt-divider-location="353" resource-divider-location="300" version="2.7" locale="es">
     <description/>
-    <view zooming-state="default:3" id="gantt-chart">
+    <view zooming-state="default:7" id="gantt-chart">
         <field id="tpd3" name="Nombre" width="57" order="0"/>
         <field id="tpd4" name="Fecha de inicio" width="21" order="1"/>
         <field id="tpd5" name="Fecha de fin" width="21" order="2"/>
-        <timeline><![CDATA[3,0]]></timeline>
+        <timeline><![CDATA[0,16,3,7]]></timeline>
     </view>
     <view id="resource-table">
-        <field id="0" name="Nombre" width="56" order="0"/>
-        <field id="1" name="Función" width="43" order="1"/>
+        <field id="0" name="Nombre" width="52" order="0"/>
+        <field id="1" name="Función" width="47" order="1"/>
     </view>
     <!-- -->
     <calendars>
@@ -34,16 +34,16 @@
             <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
             <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
         </taskproperties>
-        <task id="0" name="Vision del Proyecto" color="#8cb6ce" meeting="false" start="2015-02-27" duration="1" complete="0" expand="true">
+        <task id="0" name="Levantamiento de Requisitos" color="#8cb6ce" meeting="false" start="2015-02-23" duration="14" complete="0" expand="true">
             <notes><![CDATA[Reunion Para determinar los diferentes Sprints del proyecto]]></notes>
         </task>
-        <task id="3" name="Definicion de Terminado" color="#8cb6ce" meeting="false" start="2015-02-28" duration="1" complete="0" expand="true">
+        <task id="3" name="Analisis de Requisitos" color="#8cb6ce" meeting="false" start="2015-03-09" duration="14" complete="0" expand="true">
             <notes><![CDATA[En reunion con el equipo de trabajo se determina el orden de prioridades para empezar a desarrollar los sprints]]></notes>
         </task>
-        <task id="7" name="Backlog Inicial" color="#8cb6ce" meeting="false" start="2015-03-01" duration="1" complete="0" expand="true">
+        <task id="7" name="Implementacion" color="#8cb6ce" meeting="false" start="2015-03-23" duration="42" complete="0" expand="true">
             <notes><![CDATA[Se Establece el orden en que se iran implementando los diversos sprints para dar mayor usabilidad al proyecto]]></notes>
         </task>
-        <task id="16" name="Primer Sprint" color="#8cb6ce" meeting="false" start="2015-03-02" duration="14" complete="0" expand="true">
+        <task id="16" name="Pruebas" color="#8cb6ce" meeting="false" start="2015-05-04" duration="21" complete="0" expand="true">
             <notes><![CDATA[Se Inicia la primera iteraccion de trabajo]]></notes>
         </task>
     </tasks>
